@@ -1,0 +1,2 @@
+the UR10 was first calibrated and saved in this file , and the connect between the ros and the ur10 is also in this file(by specifying the ip address) 
+

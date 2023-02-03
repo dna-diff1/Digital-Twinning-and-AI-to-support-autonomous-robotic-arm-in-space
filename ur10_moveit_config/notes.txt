@@ -1,0 +1,1 @@
+file that has all the confi files for the ur10 srdf file(created from the moveit setup assistant),and the moveit launch file in rviz.

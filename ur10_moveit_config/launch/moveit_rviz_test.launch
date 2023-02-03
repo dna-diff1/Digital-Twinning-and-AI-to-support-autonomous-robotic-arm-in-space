@@ -1,0 +1,27 @@
+<launch>
+
+  <arg name="debug" default="false" />
+  <arg unless="$(arg debug)" name="launch_prefix" value="" />
+  <arg     if="$(arg debug)" name="launch_prefix" value="gdb --ex run --args" />
+
+  <arg name="rviz_config" default="" />
+  <arg     if="$(eval rviz_config=='')" name="command_args" value="" />
+  <arg unless="$(eval rviz_config=='')" name="command_args" value="-d $(arg rviz_config)" />
+
+  <node name="$(anon rviz)" launch-prefix="$(arg launch_prefix)" pkg="rviz" type="rviz" respawn="false"
+        args="$(arg command_args)" output="screen">
+  </node>
+  <arg name="config" default="$(find dope)/config/config_pose.yaml" doc="Path to parameter config file"/>
+
+  <node name="dope" pkg="dope" type="dope" output="screen" clear_params="true">
+    <rosparam file="$(arg config)"/>
+  </node>
+  <node name="turtle2_tf2_broadcaster" pkg="learning_tf2" type="subscriber_object_pose_v2.py" output="screen" > 
+  </node>
+
+  <node name="fixed_tf2_broadcaster" pkg="learning_tf2" type="child_frame_tool.py" output="screen" > 
+  </node>
+
+  
+
+</launch>
