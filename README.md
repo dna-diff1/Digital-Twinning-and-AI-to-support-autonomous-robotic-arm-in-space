@@ -16,6 +16,8 @@ photorealistic data by using the generated synthetic data the network architectu
 
 ## Simulation on CoppliaSim 
 
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/83095255/216528981-ab5b0fd5-26aa-4e07-8213-16ea0f78cbcc.gif)
+
 ## results Physical Robot 
 
 ## Simulation on Unreal engine 4 
