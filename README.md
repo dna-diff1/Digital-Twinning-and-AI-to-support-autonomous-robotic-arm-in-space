@@ -20,8 +20,8 @@ The simulation is made exactly as the setup in Satellite Applications Catapult w
 
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/83095255/216528981-ab5b0fd5-26aa-4e07-8213-16ea0f78cbcc.gif)
 
-## results Physical Robot 
-Testing the code on a UR10 robot the videos shows the results from 2 POVs.
+## Results: Physical Robot 
+Testing the code on a UR10 robot ,the videos shows the results from 2 POVs.
 
 ![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/83095255/216532117-bb72734b-61f6-46a7-a6f0-6c96f7a3271d.gif)
 
