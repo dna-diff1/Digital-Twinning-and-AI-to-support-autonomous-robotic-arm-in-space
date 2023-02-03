@@ -11,6 +11,8 @@ development of a Digital twin of two robotic arms for space clearance that are a
 In order to estimate the 6 DoF pose of the target in space in real-time, Nvidia DOPE is implemented(Deep Object Pose Estimation). The model is trained on randomised 
 photorealistic data by using the generated synthetic data the network architecture and the output are shown in figure below.
 
+![draft_v1_merged](https://user-images.githubusercontent.com/83095255/216527978-225ca753-ae8c-4dcb-96db-165ac7475038.png)
+![draft_v1_merged_1](https://user-images.githubusercontent.com/83095255/216528045-e9d74dac-e83a-44bb-a098-92a2a45b6260.png)
 
 ## Simulation on CoppliaSim 
 
