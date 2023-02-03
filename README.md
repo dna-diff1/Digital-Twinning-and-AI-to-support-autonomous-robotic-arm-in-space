@@ -19,6 +19,9 @@ photorealistic data by using the generated synthetic data the network architectu
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/83095255/216528981-ab5b0fd5-26aa-4e07-8213-16ea0f78cbcc.gif)
 
 ## results Physical Robot 
+![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/83095255/216532117-bb72734b-61f6-46a7-a6f0-6c96f7a3271d.gif)
+
+![ezgif com-gif-maker (7)](https://user-images.githubusercontent.com/83095255/216534072-d22bdeb4-658a-46cd-b95a-8423e28722ec.gif)
 
 ## Simulation on Unreal engine 4 
 
